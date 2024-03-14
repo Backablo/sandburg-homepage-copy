@@ -2,7 +2,7 @@ version
   node : 20.11.1
   php : 8.3.4 thread safe
   composer : 2.7.2
-  laravel : ??
+  laravel : 11.0.5
   vue : 3.4.21
 
 1. php 위에서 동작하는 composer // node.js의 package.json 과 같이 버전 관리??
