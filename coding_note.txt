@@ -19,7 +19,7 @@ version
   - composer 
     - Latest ver 2.7.2
   참고 유튜브 !! : https://www.youtube.com/watch?v=pd3pmxvpvPI
-
+asdasdasd
 2. 라라벨
   - php artisan serve
   - 무조건 DB 연결이 되야함?(.env)
