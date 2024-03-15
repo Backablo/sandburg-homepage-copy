@@ -33,4 +33,8 @@ asdasdasd
     - https://medium.com/@DevMahmoudAdel/how-to-install-vue-3-in-laravel-10-with-vite-5c7749afd29c
     - https://medium.com/@hafizzeeshan619/setting-up-laravel-10-with-vue3-and-vuetify3-26de92235baa
 
-
+  3. router 세팅
+    - notFound 관련 추가 작업 필요
+    - layout 작업
+  4. scss 설치
+    - 전역 적용
