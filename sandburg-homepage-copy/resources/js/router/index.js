@@ -28,9 +28,8 @@ const router = createRouter({
   routes
 })
 
+// middleware
 router.beforeEach((to, from, next) => {
-  console.log('%c [print][to]', 'color:#10cdbc', to)
-  console.log('%c [print][from]', 'color:#10cdbc', from)
   next()
 })
 
