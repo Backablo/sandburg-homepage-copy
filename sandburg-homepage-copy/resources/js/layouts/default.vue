@@ -1,7 +1,17 @@
 <template>
-  <main>
-    <header>헤더 영역</header>
-    <router-view />
+  <main class="default_layout_wrapper">
+    <header class="default_header">
+      <div>
+        헤더 영역
+      </div>
+      <div>
+        퍼센트 영역
+      </div>
+    </header>
+    <main class="default_main">
+      <router-view />
+    </main>
+    <footer class="default_footer">푸터</footer>
   </main>
 </template>
 

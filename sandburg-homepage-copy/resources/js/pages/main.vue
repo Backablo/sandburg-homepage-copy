@@ -1,7 +1,30 @@
 <template>
-  <div class="green">
-    main.vue
-  </div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
+  <div class="green">main.vue</div>
 </template>
 
 <script setup>

@@ -1,4 +1,59 @@
-// 색상
+
+// 전역 공통으로 사용
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+body {
+  margin: 0;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+// 스크롤바
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+
+
+
+
+
+// 레이아웃 디폴트 영역
+.default_layout_wrapper {
+  // 헤더 영역
+  .default_header{
+    position: sticky;
+    background-color: black;
+    color: white;
+    top: 0px;
+    height: 47px;
+  }
+  // 메인 영역
+  .default_main {
+    min-height: calc(100vh - 47px);
+  }
+  // 푸터 영역
+  .default_footer {
+    position: fixed;
+    bottom: 15px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    background-color: black;
+    color: white;
+  }
+}
+
+
+
+// test
 .green {
   color:red;
   // 66, 185, 131
