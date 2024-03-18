@@ -36,6 +36,9 @@ $max-content-width: 808px;
 .mt-30 {
   margin-top: 30px !important;
 }
+.mt-40 {
+  margin-top: 40px !important;
+}
 .mr-10 {
   margin-right: 10px !important;
 }
@@ -53,12 +56,16 @@ $max-content-width: 808px;
 .blue_text{
   color: #0b6e99;
 }
+.blue_background_text{
+  background: rgb(231, 243, 248);
+}
 .grey_color{
   color: #9b9a97;
 }
 .bold_text{
   font-weight: bold;
 }
+
 
 // 공통 사용 버튼
 .common_btn_wrapper{
@@ -178,6 +185,26 @@ $max-content-width: 808px;
           line-height: 1.5;
         }
       }
+      // 투명 박스
+      .white_box{
+        padding: 15px;
+        width: calc(100% - 30px);
+        border: 1px solid rgb(228, 227, 226);;
+        color: inherit;
+        border-radius: 16px;
+        display:flex;
+        // 좌측 아이콘
+        .left_icon {
+          width: 22px;
+          height: 22px;
+          display: block;
+          fill: inherit;
+        }
+        // 내용
+        .white-box-content{
+          line-height: 1.5;
+        }
+      }
       // 중간 글자 텍스트
       .box_text_wrapper{
         width: 100%;
@@ -203,16 +230,29 @@ $max-content-width: 808px;
       }
       // 중간 글자 크기 제목
       .sub_title_text_wrapper {
-        font-weight: 600;
+        font-weight: 700;
         font-size: 1.875em;
         line-height: 1.3;
+        width: 100%;
+      }
+      // 중간 글자 크기 제목
+      .sub_middle_title_text_wrapper {
+        font-weight: 600;
+        font-size: 1.5em;
+        width: 100%;
+      }
+      // 작은 글자 크기 제목
+      .sub_small_title_text_wrapper {
+        font-weight: 600;
+        font-size: 1.25em;
         width: 100%;
       }
       // 왼쪽 라인 보더 텍스트
       .left_line_box_content{
         width: calc(100% - 20px);
         border-left: 3px solid black;
-        padding: 0 10px;
+        padding: 5px 10px;
+        line-height: 1.5;
       }
       // 중간 크기 아이콘
       .icon_middle_size {
@@ -259,7 +299,9 @@ $max-content-width: 808px;
       width: 100%;
       height: 30vh;
       overflow: hidden;
-      object-position: center 9.51%;
+      &.chg_position {
+        object-position: center 9.51%;
+      }
     }
   }
   // 푸터 영역

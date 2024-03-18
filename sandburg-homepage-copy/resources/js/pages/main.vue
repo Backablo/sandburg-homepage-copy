@@ -1,6 +1,6 @@
 <template>
   <!-- 첫번째 영역 -->
-  <img class="main_img" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F50230afc-ad5b-4721-8782-37c926de6310%2F52e4eef2-1b2d-4b80-aacf-ba52330c43b1%2F%25E1%2584%2589%25E1%2585%25A2%25E1%2586%25AB%25E1%2584%2583%25E1%2585%25B3%25E1%2584%2587%25E1%2585%25A5%25E1%2584%2580%25E1%2585%25B3-cover.jpg&blockId=bfbc85c1-abbe-452a-a2be-8dc14296aff5&width=3600">
+  <img class="main_img chg_position" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F50230afc-ad5b-4721-8782-37c926de6310%2F52e4eef2-1b2d-4b80-aacf-ba52330c43b1%2F%25E1%2584%2589%25E1%2585%25A2%25E1%2586%25AB%25E1%2584%2583%25E1%2585%25B3%25E1%2584%2587%25E1%2585%25A5%25E1%2584%2580%25E1%2585%25B3-cover.jpg&blockId=bfbc85c1-abbe-452a-a2be-8dc14296aff5&width=3600">
   <div class="default_main_wrapper">
     <div class="main_title">SANDBURG Inc.</div>
     <div class="grey_box mt-10">
@@ -63,14 +63,116 @@
         <div>데이터를 기반으로 금융 영역에서부터 <span class="blue_text bold_text">온라인 사업자의 니즈와 금융사의 니즈를 연결</span>하는 역할을 하고 있습니다.</div>
       </div>
     </div>
+    <div class="hr_wrapper mt-30 mb-30">
+      <hr />
+    </div>
   </div>
   <!-- 두번재 영역 -->
-  <img class="main_img" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F50230afc-ad5b-4721-8782-37c926de6310%2F52e4eef2-1b2d-4b80-aacf-ba52330c43b1%2F%25E1%2584%2589%25E1%2585%25A2%25E1%2586%25AB%25E1%2584%2583%25E1%2585%25B3%25E1%2584%2587%25E1%2585%25A5%25E1%2584%2580%25E1%2585%25B3-cover.jpg&blockId=bfbc85c1-abbe-452a-a2be-8dc14296aff5&width=3600">
+  <img class="main_img" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F50230afc-ad5b-4721-8782-37c926de6310%2F74e09d95-27b1-4364-a10e-e65747d3e997%2Fvinicius-low-wvih9oawoaw-unsplash.jpg&blockId=2484c885-eec3-49d2-bb44-24c59b631c0b">
   <div class="default_main_wrapper">
-    <div style="background-color: pink; width: 100%;">SANDBURG Inc.</div>
-    <div>뚜루루</div>
-    <div>뚜루루</div>
+    <div class="hr_wrapper mt-30 mb-30">
+      <hr />
+    </div>
+    <!-- Sandburg Core-Value -->
+    <div style="width: 100%; display: flex;">
+      <div style="width: 47%;">
+        <div class="sub_title_text_wrapper mt-30"><span class="grey_color">SandBurg</span> Core_Value</div>
+        <div class="left_line_box_content mt-10">
+          <div>샌드버그가 지향하는 가치들을 소개합니다.</div>
+        </div>
+        <img class="box_img mt-10" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F1d764d7d-959f-4322-9889-d4c56632aa5e%2Fnathan-dumlao-5Hl5reICevY-unsplash.jpg&blockId=fd5d49b6-34c8-4aa6-9156-148d0b94c45b">
+        <div class="sub_small_title_text_wrapper mt-10">본질은 <span class="blue_text">시간</span>입니다.</div> 
+        <div class="left_line_box_content mt-10">
+          <div>시간의 가치를 누구보다 소중하게 생각하며</div>
+          <div>효율성 극대화를 통해 시간을 줄일 수 있도록</div>
+          <div>돕는 모든 것들을 사랑하고, 만듭니다.</div>
+        </div>
+        <img class="box_img mt-40" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8bca5446-d496-41ce-af0e-13aec4178898%2Fzachary-kadolph-hwHHq82Enf0-unsplash.jpg&blockId=ea70bb0a-ec27-4f8a-9bfd-51c92ae48d16">
+        <div class="sub_small_title_text_wrapper mt-10">우리는 <span class="blue_text">언더독</span>입니다.</div> 
+        <div class="left_line_box_content mt-10">
+          <div>언더독 마인드셋을 기반으로,</div>
+          <div>실패를 두려워않는 사람들을 사랑합니다.</div>
+        </div>
+      </div>
+      <div style="width: 5%;"></div>
+      <div style="width: 48%;">
+        <img class="box_img mt-10" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff1bf31d5-349b-441c-8b57-3a4a8601ecf8%2Frishi-WiCvC9u7OpE-unsplash.jpg&blockId=a9ae1248-04dc-40d5-bf2e-9ec55b5aa051">
+        <div class="sub_small_title_text_wrapper mt-10"><span class="blue_text">데이터</span>로 우리를 증명합니다.</div> 
+        <div class="left_line_box_content mt-10">
+          <div>우리가 뛰어나다는 것을 증명하는 많은 수단이 있지만,</div>
+          <div>우리는 데이터로 그것을 증명하고</div>
+          <div>데이터로 세상을 효율적으로 만들어갑니다.</div>
+        </div>
+        <img class="box_img mt-40" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe60f12c3-62fd-4a96-8936-10aa0058e6df%2Frohan-makhecha-jw3GOzxiSkw-unsplash.jpg&blockId=d769bfef-33ba-4d48-b38b-1aab70ae9a45">
+        <div class="sub_small_title_text_wrapper mt-10">우리는 <span class="blue_text">부적응자</span>입니다.</div> 
+        <div class="left_line_box_content mt-10">
+          <div>불편함 속에 물음을 던지고,</div>
+          <div>본질을 파헤치는 과정을 즐기고 사랑하며,</div>
+          <div>변화를 만들어내는 조직입니다.</div>
+        </div>
+      </div>
+    </div>
+    <!-- Sandburg History -->
+    <div class="hr_wrapper mt-30 mb-30">
+      <hr />
+    </div>
+    <div class="sub_title_text_wrapper mt-30"><span class="grey_color">SandBurg</span> History</div>
+    <div class="white_box mt-10">
+      <div class="mr-10"><img class="left_icon" src="../assets/img/hour-glass-svgrepo-com.svg" alt="hour-glass-svgrepo-com" /></div>
+      <div class="white-box-content">
+        샌드버그는 <span class="blue_background_text">온라인 사장님들이 잘 성장하고 생존할 수 있는 환경</span>을 만들어가는 치열한 과정에 있습니다.<br />
+        샌드버그의 시작부터 현재까지, 저희가 걸어온 길을 만나보세요.
+      </div>
+    </div>
+    <div class="mt-30" style="width: 100%">
+      <div class="sub_middle_title_text_wrapper mb-10"><span class="blue_text bold_text">2023</span></div>
+      <ul style="line-height: 2; margin: 0; padding-left: 30px;">
+        <li>10월. TIPS 일반형 선정 </li>
+        <li>9월. 소상공인 행정처리 자동화 솔루션 “SNAP” 출시</li>
+        <li>8월. 디딤돌 R&D 서비스형 선정</li>
+        <li>5월. 스마트서비스 지원사업 선정</li>
+        <li>3월. 부산광역시 기술창업기업 인증 (브라이트클럽)</li>
+        <li>1월. 블루포인트파트너스 시드 투자 유치</li>
+      </ul>
+    </div>
+    <div class="mt-40" style="width: 100%">
+      <div class="sub_middle_title_text_wrapper mb-10"><span class="blue_text bold_text">2022</span></div>
+      <ul style="line-height: 2; margin: 0; padding-left: 30px;">
+        <li>11월. 다올벤처챌린지 우수상 수상 (상금 2,000만 원)</li>
+        <li>9월. 매출 채권 분석 기반 당일정산 솔루션 “크레닷” 출시</li>
+        <li>5월. Google for Startup x Sparklabs 선정 및 수료</li>
+        <li>4월. BEF 5기 선정</li>
+        <li>3월. 청년창업사관학교 투자특화형 선정 및 수료</li>
+        <li>2월. 신용보증기금 NEST 11기 선정</li>
+      </ul>
+    </div>
+    <div class="mt-40" style="width: 100%">
+      <div class="sub_middle_title_text_wrapper mb-10"><span class="blue_text bold_text">2021</span></div>
+      <ul style="line-height: 2; margin: 0; padding-left: 30px;">
+        <li>12월. 스타벅스 x 중소벤처기업부 창업챌린지 최우수상 수상 (서울창조경제혁신센터장상 수상)</li>
+        <li>11월. 부스타락셀 2021 최우수상 수상 (부산중소벤처기업청장상)</li>
+        <li>10월. 주식회사 샌드버그 법인 설립</li>
+        <li>6월. U-300 교육부 장관 인증</li>
+        <li>4월. 2021 예비창업패키지 일반분야 선정 및 수료</li>
+        <li>3월. 사회적기업가 육성사업 선정 및 수료</li>
+        <li>2월. IP 디딤돌 선정</li>
+        <li>1월. 실리콘벨리 창업연수 선정 및 수료</li>
+      </ul>
+    </div>
+    <div class="sub_middle_title_text_wrapper mt-30">
+      <img class="icon_middle_size mr-10" src="../assets/img/flower-pot-svgrepo-com.svg" alt="flower-pot-svgrepo-com" />
+      <span class="grey_color">SandBurg</span> GROWTH
+    </div>
+    <div class="mt-10" style="width:100%; line-height: 1.5;">
+      샌드버그의 솔루션, 스냅을 사용 해주고 계시는 사장님들이 가파른 속도로 늘어나고 있습니다.<br />
+      사장님의 관점에서 바라보며 필요한 기능을 고안하고, 더 좋은 프로덕트를 만들기 위해 끝없이 고민하겠습니다.
+    </div>
+    <div class="hr_wrapper mb-30">
+      <hr />
+    </div>
   </div>
+  <!-- 세번째 영역 -->
+  <img class="main_img" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F50230afc-ad5b-4721-8782-37c926de6310%2F74e09d95-27b1-4364-a10e-e65747d3e997%2Fvinicius-low-wvih9oawoaw-unsplash.jpg&blockId=2484c885-eec3-49d2-bb44-24c59b631c0b">
 </template>
 
 <script setup>
