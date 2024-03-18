@@ -43,3 +43,9 @@ asdasdasd
   6. 폰트 변경(pretends)
   7. 헤더, 푸터 작업 완료
     - 검색, 공유에 대한 처리 필요
+    - 복사 하려고 할때 복사 못하도록 처리 필요(toast 라이브러리 넣을까?)
+  
+
+
+  svg img url
+  https://www.svgrepo.com/vectors/clap/

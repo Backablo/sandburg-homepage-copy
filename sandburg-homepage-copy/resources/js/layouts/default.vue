@@ -6,7 +6,7 @@
           <button @click="fnMoveHome()" class="common_btn">SANDBURG Inc.</button>
         </div>
         <div class="common_btn_wrapper">
-          <button class="common_btn btn_icon mr-3">
+          <button class="common_btn btn_icon mr-10">
             <img class="icon" src="../assets/img/search-svgrepo-com.svg" alt="search-svgrepo-com" />
             검색
           </button>
