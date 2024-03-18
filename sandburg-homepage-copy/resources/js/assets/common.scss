@@ -290,6 +290,40 @@ $max-content-width: 808px;
       }
       // SandBurg Solutions eeee
 
+      // Sandburg Core-Value ssss
+      .sandburg_core_wrapper {
+        width: 100%;
+        display: flex;
+        .left_section {
+          width: 47%;
+        }
+        .center_section {
+          width: 5%;
+        }
+        .right_section {
+          width: 48%;
+        }
+      }
+      // Sandburg Core-Value eeee
+
+      // Sandburg History ssss
+      .sandburg_history_list_wrapper{
+        width: 100%;
+        .history_list_ul{
+          line-height: 2;
+          margin: 0;
+          padding-left: 30px;
+        }
+      }
+      // Sandburg History eeee
+
+      // Sandburg growth ssss
+      .sandburg_growth_content{
+        width:100%;
+        line-height: 1.5;
+      }
+      // Sandburg growth eeee
+
     }
     // 가로 전체 이미지 영역 
     .main_img {

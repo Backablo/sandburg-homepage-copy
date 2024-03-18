@@ -74,8 +74,8 @@
       <hr />
     </div>
     <!-- Sandburg Core-Value -->
-    <div style="width: 100%; display: flex;">
-      <div style="width: 47%;">
+    <div class="sandburg_core_wrapper">
+      <div class="left_section">
         <div class="sub_title_text_wrapper mt-30"><span class="grey_color">SandBurg</span> Core_Value</div>
         <div class="left_line_box_content mt-10">
           <div>샌드버그가 지향하는 가치들을 소개합니다.</div>
@@ -94,8 +94,8 @@
           <div>실패를 두려워않는 사람들을 사랑합니다.</div>
         </div>
       </div>
-      <div style="width: 5%;"></div>
-      <div style="width: 48%;">
+      <div class="center_section"></div>
+      <div class="right_section">
         <img class="box_img mt-10" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff1bf31d5-349b-441c-8b57-3a4a8601ecf8%2Frishi-WiCvC9u7OpE-unsplash.jpg&blockId=a9ae1248-04dc-40d5-bf2e-9ec55b5aa051">
         <div class="sub_small_title_text_wrapper mt-10"><span class="blue_text">데이터</span>로 우리를 증명합니다.</div> 
         <div class="left_line_box_content mt-10">
@@ -124,9 +124,9 @@
         샌드버그의 시작부터 현재까지, 저희가 걸어온 길을 만나보세요.
       </div>
     </div>
-    <div class="mt-30" style="width: 100%">
+    <div class="sandburg_history_list_wrapper mt-30">
       <div class="sub_middle_title_text_wrapper mb-10"><span class="blue_text bold_text">2023</span></div>
-      <ul style="line-height: 2; margin: 0; padding-left: 30px;">
+      <ul class="history_list_ul">
         <li>10월. TIPS 일반형 선정 </li>
         <li>9월. 소상공인 행정처리 자동화 솔루션 “SNAP” 출시</li>
         <li>8월. 디딤돌 R&D 서비스형 선정</li>
@@ -135,9 +135,9 @@
         <li>1월. 블루포인트파트너스 시드 투자 유치</li>
       </ul>
     </div>
-    <div class="mt-40" style="width: 100%">
+    <div class="sandburg_history_list_wrapper mt-40">
       <div class="sub_middle_title_text_wrapper mb-10"><span class="blue_text bold_text">2022</span></div>
-      <ul style="line-height: 2; margin: 0; padding-left: 30px;">
+      <ul class="history_list_ul">
         <li>11월. 다올벤처챌린지 우수상 수상 (상금 2,000만 원)</li>
         <li>9월. 매출 채권 분석 기반 당일정산 솔루션 “크레닷” 출시</li>
         <li>5월. Google for Startup x Sparklabs 선정 및 수료</li>
@@ -146,9 +146,9 @@
         <li>2월. 신용보증기금 NEST 11기 선정</li>
       </ul>
     </div>
-    <div class="mt-40" style="width: 100%">
+    <div class="sandburg_history_list_wrapper mt-40">
       <div class="sub_middle_title_text_wrapper mb-10"><span class="blue_text bold_text">2021</span></div>
-      <ul style="line-height: 2; margin: 0; padding-left: 30px;">
+      <ul class="history_list_ul">
         <li>12월. 스타벅스 x 중소벤처기업부 창업챌린지 최우수상 수상 (서울창조경제혁신센터장상 수상)</li>
         <li>11월. 부스타락셀 2021 최우수상 수상 (부산중소벤처기업청장상)</li>
         <li>10월. 주식회사 샌드버그 법인 설립</li>
@@ -159,11 +159,12 @@
         <li>1월. 실리콘벨리 창업연수 선정 및 수료</li>
       </ul>
     </div>
+    <!-- SandBurg GROWTH -->
     <div class="sub_middle_title_text_wrapper mt-30">
       <img class="icon_middle_size mr-10" src="../assets/img/flower-pot-svgrepo-com.svg" alt="flower-pot-svgrepo-com" />
       <span class="grey_color">SandBurg</span> GROWTH
     </div>
-    <div class="mt-10" style="width:100%; line-height: 1.5;">
+    <div class="sandburg_growth_content  mt-10">
       샌드버그의 솔루션, 스냅을 사용 해주고 계시는 사장님들이 가파른 속도로 늘어나고 있습니다.<br />
       사장님의 관점에서 바라보며 필요한 기능을 고안하고, 더 좋은 프로덕트를 만들기 위해 끝없이 고민하겠습니다.
     </div>
@@ -172,7 +173,17 @@
     </div>
   </div>
   <!-- 세번째 영역 -->
-  <img class="main_img" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F50230afc-ad5b-4721-8782-37c926de6310%2F74e09d95-27b1-4364-a10e-e65747d3e997%2Fvinicius-low-wvih9oawoaw-unsplash.jpg&blockId=2484c885-eec3-49d2-bb44-24c59b631c0b">
+  <img class="main_img" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4895acc9-e784-470d-a8de-1d87661d29d9%2Fcharlesdeluvio-Lks7vei-eAg-unsplash.jpg&blockId=673e9e4e-ddc7-466c-bc9b-6f717631de09">
+  <div class="default_main_wrapper">
+    <div class="hr_wrapper mt-30 mb-30">
+      <hr />
+    </div>
+    <!-- Sandbrug In News -->
+    <div class="sub_middle_title_text_wrapper mt-30">
+      <img class="icon_middle_size mr-10" src="../assets/img/camera-svgrepo-com.svg" alt="camera-svgrepo-com" />
+      <span class="grey_color">SandBurg</span> In News
+    </div>
+  </div>
 </template>
 
 <script setup>
