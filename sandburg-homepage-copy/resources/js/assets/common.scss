@@ -27,6 +27,9 @@ body {
 $max-content-width: 808px;
 
 // 공통 사용 padding, margin
+.mt-5 {
+  margin-top: 5px !important;
+}
 .mt-10 {
   margin-top: 10px !important;
 }
@@ -38,6 +41,9 @@ $max-content-width: 808px;
 }
 .mt-40 {
   margin-top: 40px !important;
+}
+.mr-5 {
+  margin-right: 5px !important;
 }
 .mr-10 {
   margin-right: 10px !important;
@@ -52,18 +58,24 @@ $max-content-width: 808px;
   margin-bottom: 30px !important;
 }
 
-// 공통 사용 텍스트 색상
+// 공통 사용 텍스트
 .blue_text{
   color: #0b6e99;
 }
-.blue_background_text{
+.blue_background_text {
   background: rgb(231, 243, 248);
 }
 .grey_color{
   color: #9b9a97;
 }
+.green_color{
+  color: rgb(15, 123, 108);
+}
 .bold_text{
   font-weight: bold;
+}
+.underline_text {
+  text-decoration: underline;
 }
 
 
@@ -107,6 +119,7 @@ $max-content-width: 808px;
   height: 100vh;
   // 헤더 영역
   .default_header{
+    z-index: 1000;
     position: sticky;
     background-color: white;
     color: black;
@@ -144,7 +157,7 @@ $max-content-width: 808px;
       // 마지막 요소의 경우 하단 내용 표현을 위해서 padding 적용
       &:last-child{
         padding-bottom: 65px;
-      }      
+      }
       // 상단 타이틀
       .main_title {
         margin-top: 40px;
@@ -181,12 +194,20 @@ $max-content-width: 808px;
           }
         }
         // 내용
-        .grey-box-content{
+        .grey-box-content {
           line-height: 1.5;
+          &.link{
+            opacity: 0.7;
+            text-decoration: underline;
+            &:hover {
+              cursor: pointer;
+              opacity: 1 !important;
+            }
+          }
         }
       }
       // 투명 박스
-      .white_box{
+      .white_box {
         padding: 15px;
         width: calc(100% - 30px);
         border: 1px solid rgb(228, 227, 226);;
@@ -201,7 +222,7 @@ $max-content-width: 808px;
           fill: inherit;
         }
         // 내용
-        .white-box-content{
+        .white-box-content {
           line-height: 1.5;
         }
       }
@@ -255,6 +276,11 @@ $max-content-width: 808px;
         line-height: 1.5;
       }
       // 중간 크기 아이콘
+      .icon_small_size {
+        width: 16px;
+        height: 16px;
+        fill: inherit;
+      }
       .icon_middle_size {
         width: 22px;
         height: 22px;
@@ -323,6 +349,177 @@ $max-content-width: 808px;
         line-height: 1.5;
       }
       // Sandburg growth eeee
+      
+      // Sandburg news ssss
+      .sandburg_news_wrapper {
+        width: 100%;
+      }
+      // Sandburg news eeee
+
+      // Sandburg Team ssss
+      .div_btn {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        &:hover {
+          cursor: pointer;
+          background-color: #f6f6f6;
+        }
+      }
+      .sandburg_team_wrapper{
+        width: 100%;
+        display: flex;
+        .left_section {
+          width: 47%;
+        }
+        .center_section {
+          width: 5%;
+        }
+        .right_section {
+          width: 48%;
+        }
+      }
+      // Sandburg Team eeee
+
+      // Sandburg Recruit ssss
+      .grid_wrapper{
+        width: 100%;
+        .grid_section{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          align-items: stretch;
+          .grid_content {
+            flex: 0 0 25%;
+            max-width: calc(25% - 16px);
+            padding: 8px;
+            .content_wrapper {
+              transition: background-color 1s ease;
+              background-color: inherit;
+              color: rgb(55, 53, 47, 0.7);
+              box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 2px 4px;
+              border-radius: 10px;
+              overflow: hidden;
+              height: 100%;
+              width: 100%;
+              cursor: pointer;
+              display: flex;
+              flex-direction: column;
+              .gird_img{
+                display: block;
+                object-fit: cover;
+                // border-radius: 1px 1px 0px 0px;
+                width: 100%;
+                height: 100%;
+                object-position: center 50%;
+                max-height: 120px;
+              }
+              .content_text_section {
+                padding: 10px;
+                .content_title {
+                  display: flex;
+                  align-items: center;
+                  font-size: 16px;
+                }
+                .sub_info {
+                  width: fit-content;
+                  border-radius: 5px;
+                  padding: 4px;
+                  font-size: 12px;
+                  margin-bottom: 5px;
+                  
+                  &.grey {
+                    background-color: #ebebec;
+                  } 
+                  &.pink {
+                    background-color: #ffe8e7;
+                  }
+                  &.blue {
+                    background-color: #e3f2fb;
+                  }
+                  &:last-child{
+                    margin-bottom: 0;
+                  }
+                }
+              }
+            }
+            &:hover{
+              .content_wrapper{
+                background-color: rgba(55, 53, 47, 0.08);
+              }
+            }
+          }
+          @media (max-width: 1408px) {
+            .grid_content{
+              .gird_img{
+                max-height: 130px;
+              }
+              flex: 0 0 33.3%;
+              max-width: calc(33.3% - 16px);
+            }
+          }
+          @media (max-width: 992px) {
+            .grid_content{
+              .gird_img{
+                max-height: 150px;
+              }
+              flex: 0 0 50%;
+              max-width: calc(50% - 16px);
+            }
+          }
+          @media (max-width: 767px) {
+            .grid_content{
+              .gird_img{
+                max-height: 250px;
+              }
+              flex: 0 0 100%;
+              max-width: calc(100% - 16px);
+            }
+          }
+        }
+      }
+      // Sandburg Recruit eeee
+
+      // Sandburg Workspace ssss
+      .sandburg_workspace_text {
+        width:100%;
+      }
+      .workspace_img_wrapper{
+        display: flex;
+        align-items: center;
+      }
+      .sandburg_workspace_sub_info_wrapper {
+        width: 100%;
+        display:flex;
+        .left_section{
+          width: 47%;
+        }
+        .center_section{
+          width: 5%;
+        }
+        .right_section{
+          width: 48%;
+        }
+      }
+      .map_wrapper{
+        width:100%;
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+        #map{
+          width: 100%;
+          padding-bottom: 60%; /* 가로 넓이에 따라서 세로가 변경됨 */
+          position: relative;
+          overflow: hidden;
+        }
+      }
+      // Sandburg Workspace eeee
+
+      // Contact Us ssss
+      .common_text {
+        width: 100%;
+      }
+      // Contact Us eeee
 
     }
     // 가로 전체 이미지 영역 

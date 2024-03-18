@@ -183,6 +183,235 @@
       <img class="icon_middle_size mr-10" src="../assets/img/camera-svgrepo-com.svg" alt="camera-svgrepo-com" />
       <span class="grey_color">SandBurg</span> In News
     </div>
+    <div class="mt-10 sandburg_news_wrapper">언론에 비친 샌드버그를 만나보세요.</div>
+    <div class="sub_middle_title_text_wrapper mt-20"><span class="bold_text">2023</span></div>
+    <div class="grey_box mt-10">
+      <div class="mr-10"><img class="left_icon" src="../assets/img/newspaper-svgrepo-com.svg" alt="newspaper-svgrepo-com" /></div>
+      <span @click="fnTabOpen('https://blog.naver.com/startupkised/223140313674')" class="grey-box-content link">2023.06.28 ⎪창업진흥원 공식 블로그⎪온라인 소상공인의 디지털 전환을 돕는 기묘한 핀테크 회사, 샌드버그</span>
+    </div>
+    <div class="grey_box mt-10">
+      <div class="mr-10"><img class="left_icon" src="../assets/img/newspaper-svgrepo-com.svg" alt="newspaper-svgrepo-com" /></div>
+      <span @click="fnTabOpen('https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=33092')" class="grey-box-content link">2023.05.11 ⎪ChannelPNU⎪[STAR:T UP] "부산 일자리 만드는 유니콘 기업 되고 싶어"</span>
+    </div>
+
+    <div class="sub_middle_title_text_wrapper mt-20"><span class="bold_text">2022</span></div>
+    <div class="grey_box mt-10">
+      <div class="mr-10"><img class="left_icon" src="../assets/img/newspaper-svgrepo-com.svg" alt="newspaper-svgrepo-com" /></div>
+      <span @click="fnTabOpen('https://magazine.hankyung.com/job-joy/article/202201190750d')" class="grey-box-content link">2022.01.24 ⎪매거진한경⎪[부산창업촉진지구 지원사업] 배호진 샌드버그 대표, “기부금 정보공개 플랫폼 개발, 퓨처이노베이션스쿨 통해 네트워크 쌓아”</span>
+    </div>
+    <div class="grey_box mt-10">
+      <div class="mr-10"><img class="left_icon" src="../assets/img/newspaper-svgrepo-com.svg" alt="newspaper-svgrepo-com" /></div>
+      <span @click="fnTabOpen('https://www.newsprime.co.kr/news/article/?no=588275')" class="grey-box-content link">2022.12.20 ⎪프라임경제⎪부산연합기술지주, 유망 스타트업 창업역량 및 투자유치 지원</span>
+    </div>
+
+    <div class="sub_middle_title_text_wrapper mt-20"><span class="bold_text">2021</span></div>
+    <div class="grey_box mt-10">
+      <div class="mr-10"><img class="left_icon" src="../assets/img/newspaper-svgrepo-com.svg" alt="newspaper-svgrepo-com" /></div>
+      <span @click="fnTabOpen('https://theviewers.co.kr/View.aspx?No=2142364')" class="grey-box-content link">2021.12.10 ⎪더드라이브⎪스타벅스, 중소벤처기업부와 함께 '창업 챌린지' 수상자 발표</span>
+    </div>
+    <div class="grey_box mt-10">
+      <div class="mr-10"><img class="left_icon" src="../assets/img/newspaper-svgrepo-com.svg" alt="newspaper-svgrepo-com" /></div>
+      <span @click="fnTabOpen('https://www.enewstoday.co.kr/news/articleView.html?idxno=1492894')" class="grey-box-content link">2021.07.05 ⎪이뉴스투데이⎪'2021 학생 창업유망팀 300'... 부산대, 동남권 최다 8개 팀 선정</span>
+    </div>
+    <div class="hr_wrapper mt-30 mb-30">
+      <hr />
+    </div>
+    <!-- Sandbrug Team -->
+    <div class="sub_middle_title_text_wrapper mt-30">
+      <span class="grey_color">SandBurg</span> Team
+    </div>
+    <div class="sandburg_team_wrapper mt-20">
+      <div class="left_section">
+        <div><img class="box_img" alt="SANDBURG_IMG" src="https://i.ibb.co/QQk7Vmk/Welfare.jpg"></div>
+        <div class="div_btn mt-5">
+          <img class="icon_middle_size mr-5" src="../assets/img/handbag-svgrepo-com.svg" alt="handbag-svgrepo-com" />
+          <span class="underline_text">Welfare →</span>
+        </div>
+      </div>
+      <div class="center_section">
+      </div>
+      <div class="right_section">
+        <div><img class="box_img" alt="SANDBURG_IMG" src="https://i.ibb.co/N3tc0Qm/Pilots.jpg"></div>
+        <div class="div_btn mt-5">
+          <img class="icon_middle_size mr-5" src="../assets/img/airplane-svgrepo-com.svg" alt="airplane-svgrepo-com" />
+          <span class="underline_text">Pilots →</span>
+        </div>
+      </div>
+    </div>
+    <div class="hr_wrapper mt-30 mb-30">
+      <hr />
+    </div>
+    <!-- Sandbrug Recruit -->
+    <div class="sub_middle_title_text_wrapper mt-30">
+      <img class="icon_middle_size mr-10" src="../assets/img/handshake-svgrepo-com.svg" alt="handshake-svgrepo-com" />
+      <span class="grey_color">SandBurg</span> Recruit
+    </div>
+    <div class="sub_small_title_text_wrapper mt-30">데이터와 IT로 세상을 바꿀  <span class="blue_background_text">열정을 가진 여러분</span>을 모시고 싶습니다!.</div> 
+    <div class="grey_box mt-10">
+      <div class="mr-10"><img class="left_icon" src="../assets/img/exclamation-triangle-svgrepo-com.svg" alt="exclamation-triangle-svgrepo-com" /></div>
+      <div class="grey-box-content">아래 채용 정보는 <span class="bold_text">2024년 2월</span>에 업데이트된 최신 정보입니다. </div>
+    </div>
+    <div class="sub_small_title_text_wrapper mt-20">채용 중인 포지션</div>
+    <div class="sub_small_title_text_wrapper mt-20">G&A (General & Administartion) Team</div>
+    <div class="grid_wrapper mt-10">
+      <div class="grid_section">
+        <div class="grid_content">
+          <div class="content_wrapper">
+            <img class="gird_img" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F50230afc-ad5b-4721-8782-37c926de6310%2F4e76700e-939c-4cc6-8da9-00064bfe32a0%2FUntitled.jpeg&blockId=2a0603fa-b6ad-4c14-96df-5142b3398cc4&width=512" />
+            <div class="content_text_section">
+              <div class="content_title mb-10">
+                <img class="icon_small_size mr-10" src="../assets/img/tool-screwdriver-svgrepo-com.svg" alt="tool-screwdriver-svgrepo-com" />
+                <span>시니어 인사 팀장</span>
+              </div>
+              <div class="sub_info blue">5년 이상</div>
+              <div class="sub_info grey">채용 중</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sub_small_title_text_wrapper mt-20">R&D (Research & Development) Team</div>
+    <div class="grid_wrapper mt-10">
+      <div class="grid_section">
+        <div class="grid_content">
+          <div class="content_wrapper">
+            <img class="gird_img" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F50230afc-ad5b-4721-8782-37c926de6310%2F4e76700e-939c-4cc6-8da9-00064bfe32a0%2FUntitled.jpeg&blockId=2a0603fa-b6ad-4c14-96df-5142b3398cc4&width=512" />
+            <div class="content_text_section">
+              <div class="content_title mb-10">
+                <img class="icon_small_size mr-10" src="../assets/img/tool-screwdriver-svgrepo-com.svg" alt="tool-screwdriver-svgrepo-com" />
+                <span>Backend Engineer</span>
+              </div>
+              <div class="sub_info pink">1년 이상</div>
+              <div class="sub_info grey">채용 중</div>
+            </div>
+          </div>
+        </div>
+        <div class="grid_content">
+          <div class="content_wrapper">
+            <img class="gird_img" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F50230afc-ad5b-4721-8782-37c926de6310%2F4e76700e-939c-4cc6-8da9-00064bfe32a0%2FUntitled.jpeg&blockId=2a0603fa-b6ad-4c14-96df-5142b3398cc4&width=512" />
+            <div class="content_text_section">
+              <div class="content_title mb-10">
+                <img class="icon_small_size mr-10" src="../assets/img/tool-screwdriver-svgrepo-com.svg" alt="tool-screwdriver-svgrepo-com" />
+                <span>Frontend Engineer</span>
+              </div>
+              <div class="sub_info pink">1년 이상</div>
+              <div class="sub_info grey">채용 중</div>
+            </div>
+          </div>
+        </div>
+        <div class="grid_content">
+          <div class="content_wrapper">
+            <img class="gird_img" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F50230afc-ad5b-4721-8782-37c926de6310%2F4e76700e-939c-4cc6-8da9-00064bfe32a0%2FUntitled.jpeg&blockId=2a0603fa-b6ad-4c14-96df-5142b3398cc4&width=512" />
+            <div class="content_text_section">
+              <div class="content_title mb-10">
+                <img class="icon_small_size mr-10" src="../assets/img/tool-screwdriver-svgrepo-com.svg" alt="tool-screwdriver-svgrepo-com" />
+                <span>시니어 Backend Engineer</span>
+              </div>
+              <div class="sub_info blue">5년 이상</div>
+              <div class="sub_info grey">채용 중</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sub_small_title_text_wrapper mt-20">S&M (Sales & Marketing) Team</div>
+    <div class="grid_wrapper mt-10">
+      <div class="grid_section">
+        <div class="grid_content">
+          <div class="content_wrapper">
+            <img class="gird_img" alt="SANDBURG_IMG" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F50230afc-ad5b-4721-8782-37c926de6310%2F4e76700e-939c-4cc6-8da9-00064bfe32a0%2FUntitled.jpeg&blockId=2a0603fa-b6ad-4c14-96df-5142b3398cc4&width=512" />
+            <div class="content_text_section">
+              <div class="content_title mb-10">
+                <img class="icon_small_size mr-10" src="../assets/img/tool-screwdriver-svgrepo-com.svg" alt="tool-screwdriver-svgrepo-com" />
+                <span>시니어 영업 팀장</span>
+              </div>
+              <div class="sub_info blue">5년 이상</div>
+              <div class="sub_info grey">채용 중</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hr_wrapper mt-30 mb-30">
+      <hr />
+    </div>
+    <!-- Sandburg Workspace -->
+    <div class="sub_middle_title_text_wrapper mt-30">
+      <span class="grey_color">SandBurg</span> Workspace
+    </div>
+    <div class="white_box mt-20">
+      <div class="mr-10"><img class="left_icon" src="../assets/img/building-svgrepo-com.svg" alt="building-svgrepo-com" /></div>
+      <div class="white-box-content">
+        부산 최고의 근무지 Wework BIFC에서 근무합니다.<br />
+        <span class="bold_text">샌드버그 오피스 | 부산광역시 남구 전포대로 133, 14층 116호</span>
+      </div>
+    </div>
+    <div class="map_wrapper mt-10">
+      <div id="map"></div>
+    </div>
+    <div class="sandburg_workspace_text mt-10">
+      <span class="green_color">국제금융센터•부산은행역</span> <span class="grey_color">에서 도보로 3</span><span class="grey_color bold_text">분 거리</span>
+    </div>
+    <div class="sandburg_workspace_sub_info_wrapper mt-20">
+      <div class="left_section">
+        <div class="grey_box">
+          <div class="mr-10"><img class="left_icon" src="../assets/img/dress-svgrepo-com.svg" alt="dress-svgrepo-com" /></div>
+          <div class="grey-box-content">
+            샌드버그 의류를 지원합니다.<br />
+            <div class="workspace_img_wrapper">
+              <img class="icon_small_size mr-5" src="../assets/img/check-svgrepo-com.svg" alt="check-svgrepo-com" />
+              100% 리사이클링 반팔, 아우터 제공
+            </div>
+          </div>
+        </div>
+        <div class="grey_box mt-10">
+          <div class="mr-10"><img class="left_icon" src="../assets/img/pen-writer-svgrepo-com.svg" alt="pen-writer-svgrepo-com" /></div>
+          <div class="grey-box-content">
+            성장을 도와줍니다.<br />
+            <div class="workspace_img_wrapper">
+              <img class="icon_small_size mr-5" src="../assets/img/check-svgrepo-com.svg" alt="check-svgrepo-com" />
+              도서비&amp;500만 원 상당 교육 제공
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="center_section"></div>
+      <div class="right_section">
+        <div class="grey_box">
+          <div class="mr-10"><img class="left_icon" src="../assets/img/tableware-svgrepo-com.svg" alt="tableware-svgrepo-com" /></div>
+          <div class="grey-box-content">
+            마르지 않는 간식을 지원합니다.<br />
+            <div class="workspace_img_wrapper">
+              <img class="icon_small_size mr-5" src="../assets/img/check-svgrepo-com.svg" alt="check-svgrepo-com" />
+              무제한 간식 제공
+            </div>
+          </div>
+        </div>
+        <div class="grey_box mt-10">
+          <div class="mr-10"><img class="left_icon" src="../assets/img/monitor-svgrepo-com.svg" alt="monitor-svgrepo-com" /></div>
+          <div class="grey-box-content">
+            아낌없이 지원합니다.
+            <div class="workspace_img_wrapper">
+              <img class="icon_small_size mr-5" src="../assets/img/check-svgrepo-com.svg" alt="check-svgrepo-com" />
+              최신 IT 장비 제공
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hr_wrapper mt-30 mb-30">
+      <hr />
+    </div>
+    <!-- Sandburg Contact Us -->
+    <div class="sub_middle_title_text_wrapper mt-30">
+      Contact Us
+    </div>
+    <div class="hr_wrapper mt-20 mb-10">
+      <hr />
+    </div>
+    <div class="common_text grey_color mb-10">채용 문의 | recruit@sandburg.co.kr (051-711-4488)</div>
+    <div class="common_text grey_color">사업 및 제휴 문의 | contact@sandburg.co.kr (010-2413-4498)</div>
+    <div class="common_text bold_text mt-40"><span class="grey_text">2024</span> ⓒ Sandburg Inc.</div>
   </div>
 </template>
 
@@ -191,10 +420,13 @@
 
   // data
   let pageId = 'main'
+  let map = ref(null)
 
   /************************
    *    Life Cycle
    ************************/
+  // created
+  loadScript()
   onMounted(() => {
     document.addEventListener('copy', fnAlterCopy)
   })
@@ -203,8 +435,44 @@
   })
 
   // methods
+  // 복사 경고 창
   function fnAlterCopy(){
     alert('Copyins is not allowed!')
+  }
+  // 탭 열기
+  function fnTabOpen(path){
+    window.open(path, '_blank');
+  }
+  // 카카오 스크립트 로드
+  function loadScript() {
+    const script = document.createElement('script')
+    script.async = true
+    script.onload = () => {
+      window.kakao.maps.load(loadMap)
+    }
+    script.src =
+      `//dapi.kakao.com/v2/maps/sdk.js?autoload=false&libraries=services,drawing&appkey=${import.meta.env.VITE_APP_KAKAO_APP_KEY}`
+    document.head.appendChild(script)
+  }
+  function loadMap() {
+    const mapContainer = document.getElementById('map')
+    let mapOption = {
+      // Lat: 35.1484 Lon: 129.0652
+      center: new kakao.maps.LatLng(35.1484, 129.0652), // 지도의 중심좌표
+      level: 3, // 지도의 확대 레벨
+    }
+    map.value = new kakao.maps.Map(mapContainer, mapOption)
+
+    // 마커가 표시될 위치입니다 
+    let markerPosition  = new kakao.maps.LatLng(35.1484, 129.0652); 
+
+    // 마커를 생성합니다
+    let marker = new kakao.maps.Marker({
+        position: markerPosition
+    });
+
+    // 마커가 지도 위에 표시되도록 설정합니다
+    marker.setMap(map.value);
   }
 </script>
 

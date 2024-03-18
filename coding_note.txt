@@ -53,6 +53,8 @@ asdasdasd
   검색 공유 영역 작업 처리 필요
   검색 토스트 넣어서 작업?
   이미지 클릭시 팝업 
+  welfare, pilots 클릭시 이동 페이지
+  
 
 
   svg img url
