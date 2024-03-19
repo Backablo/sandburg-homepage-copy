@@ -48,14 +48,5 @@ asdasdasd
 
   지그제그 이미지 왼쪽 mt30 넣었음 나머지 오른쪽 맞춰줘야함
 
-
-  DB 세팅 관련 확인
-  검색 공유 영역 작업 처리 필요
-  검색 토스트 넣어서 작업?
-  이미지 클릭시 팝업 
-  welfare, pilots 클릭시 이동 페이지
-  
-
-
   svg img url
   https://www.svgrepo.com/vectors/clap/

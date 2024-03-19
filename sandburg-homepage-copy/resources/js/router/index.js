@@ -13,7 +13,17 @@ const routes = [
         path: '/',
         name: 'main',
         component: () => import('../pages/main.vue')
-      }
+      },
+      {
+        path: '/welfare',
+        name: 'welfare',
+        component: () => import('../pages/welfare.vue')
+      },
+      {
+        path: '/pilots',
+        name: 'pilots',
+        component: () => import('../pages/pilots.vue')
+      },
     ]
   },
   // not found 처리

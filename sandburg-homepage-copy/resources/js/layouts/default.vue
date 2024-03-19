@@ -2,8 +2,17 @@
   <main class="default_layout_wrapper" ref="mainContent" @scroll="fnHandleScroll">
     <header class="default_header">
       <div class="header_title_section">
-        <div>
-          <button @click="fnMoveHome()" class="common_btn">SANDBURG Inc.</button>
+        <div style="display: flex; align-items: center;">
+          <button @click="fnMovePage('/')" class="common_btn">SANDBURG Inc.</button>
+          <span class="grey_color mr-5 ml-5" v-if="routerPath != '/'">/</span>
+          <button v-if="routerPath == '/welfare'" @click="fnMovePage('welfare')" class="common_btn">
+            <img class="icon_small_size mr-5" src="../assets/img/handbag-svgrepo-com.svg" alt="handbag-svgrepo-com" />
+            Walfare
+          </button>
+          <button v-if="routerPath == '/pilots'" @click="fnMovePage('/pilots')" class="common_btn">
+            <img class="icon_small_size mr-5" src="../assets/img/airplane-svgrepo-com.svg" alt="airplane-svgrepo-com" />
+            pilots
+          </button>
         </div>
         <div class="common_btn_wrapper">
           <button class="common_btn btn_icon mr-10">
@@ -28,8 +37,9 @@
 </template>
 
 <script setup>
-  import {ref, reactive, inject, nextTick, onMounted} from 'vue'
+  import {ref, computed, reactive, inject, nextTick, onMounted} from 'vue'
   import { useRouter } from 'vue-router';
+
   // data
   let pageId = 'defaultLayout'
   let router = useRouter()
@@ -37,10 +47,14 @@
   let mainContent = ref(null)
   let scrollPercent = ref(0)
 
+  // computed
+	let routerPath = computed(() => {
+    return router.currentRoute.value.path;
+	})
   // methods
-  // 홈으로 이동하기  
-  function fnMoveHome(){
-    router.push({path: '/'})
+  // 라우터 이동
+  function fnMovePage(path){
+    router.push({path: path})
   }
   // 메인 스크롤 확인
   function fnHandleScroll(){

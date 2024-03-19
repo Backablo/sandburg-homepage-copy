@@ -222,8 +222,8 @@
     </div>
     <div class="sandburg_team_wrapper mt-20">
       <div class="left_section">
-        <div><img class="box_img" alt="SANDBURG_IMG" src="https://i.ibb.co/QQk7Vmk/Welfare.jpg"></div>
-        <div class="div_btn mt-5">
+        <div><img class="box_img pointer_cursor" @click="fnMovePage('welfare')" alt="SANDBURG_IMG" src="https://i.ibb.co/QQk7Vmk/Welfare.jpg"></div>
+        <div class="div_btn mt-5" @click="fnMovePage('/welfare')">
           <img class="icon_middle_size mr-5" src="../assets/img/handbag-svgrepo-com.svg" alt="handbag-svgrepo-com" />
           <span class="underline_text">Welfare →</span>
         </div>
@@ -231,8 +231,8 @@
       <div class="center_section">
       </div>
       <div class="right_section">
-        <div><img class="box_img" alt="SANDBURG_IMG" src="https://i.ibb.co/N3tc0Qm/Pilots.jpg"></div>
-        <div class="div_btn mt-5">
+        <div><img class="box_img pointer_cursor" @click="fnMovePage('pilots')" alt="SANDBURG_IMG" src="https://i.ibb.co/N3tc0Qm/Pilots.jpg"></div>
+        <div class="div_btn mt-5" @click="fnMovePage('/pilots')">
           <img class="icon_middle_size mr-5" src="../assets/img/airplane-svgrepo-com.svg" alt="airplane-svgrepo-com" />
           <span class="underline_text">Pilots →</span>
         </div>
@@ -417,10 +417,12 @@
 
 <script setup>
   import {ref, reactive, inject, nextTick, onMounted, onUnmounted} from 'vue'
+  import { useRouter } from 'vue-router';
 
   // data
   let pageId = 'main'
   let map = ref(null)
+  let router = useRouter()
 
   /************************
    *    Life Cycle
@@ -443,7 +445,13 @@
   function fnTabOpen(path){
     window.open(path, '_blank');
   }
-  // 카카오 스크립트 로드
+  // 라우터 이동
+  function fnMovePage(path){
+    router.push({path: path})
+  }
+  /**
+   * 카카오맵 함수 ssss
+   */
   function loadScript() {
     const script = document.createElement('script')
     script.async = true
@@ -474,6 +482,9 @@
     // 마커가 지도 위에 표시되도록 설정합니다
     marker.setMap(map.value);
   }
+  /**
+   * 카카오맵 함수 eeee
+   */
 </script>
 
 <style lang="scss">
