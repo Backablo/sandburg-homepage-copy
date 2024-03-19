@@ -37,7 +37,7 @@
 </template>
 
 <script setup>
-  import {ref, computed, reactive, inject, nextTick, onMounted} from 'vue'
+  import {ref, computed, watch, reactive, inject, nextTick, onMounted} from 'vue'
   import { useRouter } from 'vue-router';
 
   // data
@@ -46,6 +46,15 @@
   // 스크롤 변수
   let mainContent = ref(null)
   let scrollPercent = ref(0)
+
+  // watch
+  watch(
+  () => router,
+    ( ) => {
+      scrollPercent.value = 0
+    },
+    { deep: true, immediate: true }
+  )
 
   // computed
 	let routerPath = computed(() => {

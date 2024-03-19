@@ -213,7 +213,7 @@
       <div class="mr-10"><img class="left_icon" src="../assets/img/newspaper-svgrepo-com.svg" alt="newspaper-svgrepo-com" /></div>
       <span @click="fnTabOpen('https://www.enewstoday.co.kr/news/articleView.html?idxno=1492894')" class="grey-box-content link">2021.07.05 ⎪이뉴스투데이⎪'2021 학생 창업유망팀 300'... 부산대, 동남권 최다 8개 팀 선정</span>
     </div>
-    <div class="hr_wrapper mt-30 mb-30">
+    <div ref="scrollTarget" class="hr_wrapper mt-30 mb-30">
       <hr />
     </div>
     <!-- Sandbrug Team -->
@@ -417,11 +417,13 @@
 
 <script setup>
   import {ref, reactive, inject, nextTick, onMounted, onUnmounted} from 'vue'
+  import { usePageUrlStore }  from '../store/pageUrl.js'
   import { useRouter } from 'vue-router';
 
   // data
   let pageId = 'main'
   let map = ref(null)
+  let scrollTarget = ref(null)
   let router = useRouter()
 
   /************************
@@ -429,6 +431,7 @@
    ************************/
   // created
   loadScript()
+  fnSetScroll()
   onMounted(() => {
     document.addEventListener('copy', fnAlterCopy)
   })
@@ -485,6 +488,18 @@
   /**
    * 카카오맵 함수 eeee
    */
+  // 이전 페이지 정보 확인 후 스크롤 이동
+  function fnSetScroll(){
+    nextTick(() => {
+      let pageUrl = usePageUrlStore().getPageUrl
+      console.log('%c [print][pageUrl]', 'color:#10cdbc', pageUrl)
+      console.log('%c [print][pageUrl]', 'color:#10cdbc', scrollTarget.value)
+      if(pageUrl == 'welfare' || pageUrl == 'pilots'){
+        scrollTarget.value.scrollIntoView()
+        usePageUrlStore().resetPageUrl()
+      }
+    })
+  }
 </script>
 
 <style lang="scss">

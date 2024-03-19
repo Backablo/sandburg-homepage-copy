@@ -60,7 +60,13 @@
 
 <script setup>
   import {ref, reactive, inject, nextTick, onMounted} from 'vue'
-
+  import { usePageUrlStore }  from '../store/pageUrl.js'
+  /**
+   * 해당 페이지에서 메인 화면으로 이동 시 스크롤 조절 필요
+   */
+  usePageUrlStore().setPageUrl('welfare')
+  
   // data
   let pageId = 'welfare'
+  
 </script>
